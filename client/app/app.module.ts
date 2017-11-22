@@ -10,9 +10,10 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FotoModule } from './foto/foto.module';
 import { PainelModule } from './painel/painel.module';
 import { HttpModule } from '@angular/http';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
-    imports: [ BrowserModule, FotoModule, PainelModule, HttpModule, routing ],
+    imports: [ BrowserModule, FotoModule, PainelModule, HttpModule, FormsModule, routing  ],
     declarations: [ AppComponent, CadastroComponent, ListagemComponent ],
     bootstrap: [ AppComponent ]
 })
